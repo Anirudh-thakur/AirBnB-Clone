@@ -1,0 +1,47 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2638
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww14940\viewh11460\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs28 \cf0 Features\
+- Signup as Host - low priority\
+- Signup as User \
+\
+- Host\
+\'97 Select \'93Rent your place\'94 once host logs in\
+\'97 Current status of your property(ies)\
+\'97 Create a dashboard for properties rented and revenue collected from properties(Low priority)\
+\'97 Option for host to look for properties\
+\
+\
+- Person who is going to rent\
+\'97 Select area\
+\'97 All the deals in that area\
+\'97 Filter out according to budget/area\
+\
+Database Tables\
+- Property\
+- Bookings\
+- User\
+\
+APIs\
+- getAllProperties(area) //user\
+- getProperties(area, filter) //user\
+- getSelectedPropertyDetails(propertyId) //user\
+- putToCart(propertyId) //user\
+- putToRentedProperties(propertyId) //user\
+- getEstimatedBill(timeOfStay, billPerDay) //user\
+- getDealsWithBestOffer()      //user-user feed
+\fs24 \
+\
+Notes:\
+- use kafka\
+- live listings, no database\
+\
+\
+Technologies:\
+- ReactJS\
+- SpringBoot\
+- PostGreSQL}
