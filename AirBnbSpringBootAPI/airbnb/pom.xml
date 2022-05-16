@@ -12,7 +12,7 @@
 	<artifactId>airbnb</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>airbnb</name>
-	<description>Demo project for Spring Boot</description>
+	<description>Clonning airbnb</description>
 	<properties>
 		<java.version>8</java.version>
 	</properties>
@@ -32,9 +32,9 @@
 	<artifactId>spring-boot-starter-data-jpa</artifactId>
 </dependency>
 <dependency>
-	<groupId>org.postgresql</groupId>
-	<artifactId>postgresql</artifactId>
-	<scope>runtime</scope>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-data-mongodb</artifactId>
+    <version>2.6.7</version>
 </dependency>
 	</dependencies>
 
